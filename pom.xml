@@ -60,7 +60,7 @@
     <license.owner>SilverBulleters, LLC</license.owner>
     <license.title>${project.name}</license.title>
     <license.years>${project.inceptionYear}</license.years>
-    <license.mailto>mailto:contact AT silverbulleters DOT org</license.mailto>
+    <license.mailto>mailto:b2b@silverbulleters.org</license.mailto>
   </properties>
 
   <dependencies>
@@ -101,20 +101,20 @@
       <id>allustin</id>
       <name>Alexey Lustin</name>
       <organization>SilverBulleters, LLC</organization>
-      <organizationUrl>http://www.silverbulleters.org</organizationUrl>
-    </developer>
-    <developer>
-      <id>nixel2007</id>
-      <name>Nikita Gryzlov</name>
-      <organization>SilverBulleters, LLC</organization>
-      <organizationUrl>http://www.silverbulleters.org</organizationUrl>
+      <organizationUrl>https://silverbulleters.org</organizationUrl>
     </developer>
   </developers>
   <contributors>
     <contributor>
+      <id>nixel2007</id>
+      <name>Nikita Gryzlov</name>
+      <organization>1C-Syntax</organization>
+      <organizationUrl>https://github.com/nixel2007</organizationUrl>	
+    </contributor>
+    <contributor>
       <name>Evgeniy Sosna</name>
-      <organization>SilverBulleters, LLC</organization>
-      <organizationUrl>http://www.silverbulleters.org</organizationUrl>
+      <organization>SomeWhere</organization>
+      <organizationUrl>https://github.com/pumbaEO</organizationUrl>
     </contributor>
     <contributor>
       <name>Andrei Ovsiankin</name>

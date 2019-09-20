@@ -1,0 +1,115 @@
+
+=======================
+'core_ru.properties' is not up-to-date.
+
+ Missing translations are:
+branches.learn_how_to_analyze=Learn how to analyze branches in SonarQube
+branches.learn_how_to_analyze.text=Quickly setup branch analysis and get separate insights for each of your branches and pull requests.
+branches.no_support.header=Get the most out of SonarQube with branches analysis
+branches.no_support.header.text=Analyze each branch of your project separately with the Developer Edition.
+coding_rules.custom_rule.title=This rule has been created through customization of a rule template
+login.login_to_sonarcloud=Log In to SonarCloud
+marketplace.commercial_edition=Commercial Edition
+marketplace.downgrade_to_community_edition=Downgrade to Community Edition
+marketplace.download_package=Download package
+marketplace.edition_status.AUTOMATIC_IN_PROGRESS=Installing your new Commercial Edition... Please wait...
+marketplace.edition_status.AUTOMATIC_READY=Commercial Edition successfully installed. Please restart the server to activate your new edition.
+marketplace.edition_status.MANUAL_IN_PROGRESS=Commercial Edition can't automatically be installed because of internet access issues. Please manually install the package.
+marketplace.edition_status.UNINSTALL_IN_PROGRESS=Commercial Edition successfully downgraded. Please restart the server to remove the features.
+marketplace.edition_status_x.AUTOMATIC_IN_PROGRESS=Installing your new {0}... Please wait...
+marketplace.edition_status_x.AUTOMATIC_READY={0} successfully installed. Please restart the server to activate your new edition.
+marketplace.edition_status_x.MANUAL_IN_PROGRESS={0} can't automatically be installed because of internet access issues. Please manually install the package.
+marketplace.edition_status_x.UNINSTALL_IN_PROGRESS=Successfully downgraded to {0}. Please restart the server to remove the features.
+marketplace.editions_unavailable=Explore our Commercial Editions on {url}: advanced feature packs brought to you by SonarSource
+marketplace.enter_license_for_x=Enter your license key for {0}
+marketplace.how_to_install=How to install it?
+marketplace.i_need_a_license=I need a license key
+marketplace.license_preview_status.AUTOMATIC_INSTALL=After clicking on "Install", your {0} will be automatically downloaded and installed, and you'll need to restart your server once it's completed.
+marketplace.license_preview_status.MANUAL_INSTALL={0} can't automatically be installed because of internet access issues. A manual installation is required.
+marketplace.license_preview_status.NO_INSTALL=No installation needed, your license will be updated directly.
+marketplace.pending=Pending...
+marketplace.see_documentation_to_enable_cluster=See {url} documentation to set up a cluster.
+marketplace.sonarqube_needs_to_be_restarted_to=SonarQube needs to be restarted in order to
+marketplace.uninstall_x_confirmation=Are you sure you want to uninstall {0} and get back to the Community Edition?
+marketplace.wrong_license_type=Your license is not compatible with any existing editions. Please provide a valid license.
+marketplace.wrong_license_type_x=Your license is not compatible with the selected edition. Please provide a valid license for {0}.
+onboarding.header.sonarcloud=Welcome to SonarCloud!
+portfolio.empty.hint=This portfolio has no projects, or none of associated projects has lines of code.
+quality_gates.projects_for_default.edit=You must not select specific projects for the default quality gate.
+tutorials.follow_later=You can always follow the tutorial later
+
+The following translations do not exist in the reference bundle:
+anonymous=Анонимный вход
+as_explained_here=как описано здесь
+background_tasks.table.submitter=Submitter
+coding_rules.external_rule.engine=Rule provided by an external rule engine: {0}
+component_measures.bubble_chart.zoom_level=Текущий машсштаб. Проскролируйте диаграмму для уменьшения или увеличения масштаба, нажатие мышкой сбросит масштаб к значению по умолчанию.
+component_measures.hidden_best_score_metrics=There are {0} hidden components with a score of {1}.
+documentation.page=Документация
+embed_docs.analyze_new_project=Анализировать новый проект
+embed_docs.documentation=Документация
+embed_docs.get_help=Получить помощь
+embed_docs.news=Новости продукта
+embed_docs.stay_connected=Оставайтесь на связи
+embed_docs.suggestion=Suggestions For This Page
+footer.contact_us=Свяжитесь с нами
+footer.privacy=Конфиденциальность
+footer.status=Статус
+issue.external_issue_description=This is external rule {0}. No details are available.
+issue.from_external_rule_engine=Issue detected by an external rule engine: {0}
+issues.max_leak_period=Max Leak Period
+issues.no_issues=Нет замечаний. Ура!
+login.login_or_signup_to_sonarcloud=Войдите или зарегистрируйтесь в SonarCloud
+login.with_x=With {0}
+maintenance.page=Обслуживание
+marketplace.ask_for_information=Ask for more information
+marketplace.instance_needs_to_be_restarted_to={instance} needs to be restarted in order to
+marketplace.page.description_best_edition=This Edition gives you access to all features of the SonarQube-SonarLint ecosystem, including all SonarSource code analyzers!
+marketplace.page.open_source_plugins=Плагины
+marketplace.page.you_are_running.community=You are currently running a Community Edition.
+marketplace.page.you_are_running.datacenter=You are currently running a Data Center Edition.
+marketplace.page.you_are_running.developer=You are currently running a Developer Edition.
+marketplace.page.you_are_running.enterprise=You are currently running an Enterprise Edition.
+no=Нет
+onboarding.analyze_private_code=Я хочу анализировать частный код
+onboarding.analyze_private_code.button=Настроить новую организацию
+onboarding.analyze_public_code=Я хочу анализировать общий код
+onboarding.analyze_public_code.button=Анализировать проект
+onboarding.contribute_existing_project=I want to contribute to an existing project
+onboarding.contribute_existing_project.button=Присоединиться к команде
+onboarding.project.header=Анализировать проект
+onboarding.project.header.description=Want to quickly analyze a first project? Follow these {0} easy steps.
+onboarding.team.first_step=Well congrats, the first step is done!
+onboarding.team.header=Присоединиться к команде
+onboarding.team.how_to_join=To join a team, the only thing you need to do is to be a user registered on Sonarcloud. The administrator of the Sonarcloud organization you wish to join has to add you to his organization''s members {link}. Ask him to do so!
+onboarding.team.work_in_progress=We are currently working on a better way to join a team or invite people to yours.
+onboarding.token.generate_token=Сгенерировать Токен
+onboarding.token.generate_token.placeholder=Введите имя вашего токена
+organization.delete.sonarcloud.paid_plan_info=Your current paid plan subscription will stop and you wont be charged anymore.
+organization.members.manage_a_team=Управление командой
+organization.members.page.description=Add users to the organization and grant them permissions to work on the projects. See {link} documentation.
+overview.badges.quality_gate.description.APP=This badge dynamically displays the current quality gate status of your application.
+overview.badges.quality_gate.description.TRK=This badge dynamically displays the current quality gate status of your project.
+overview.badges.quality_gate.description.VW=This badge dynamically displays the current quality gate status of your portfolio.
+overview.project.empty=Это проект пустой.
+overview.project.no_lines_of_code=This project as no lines of code.
+portfolio.app.empty=Это приложение пустое.
+portfolio.app.no_lines_of_code=Все проекты в данном приложении пусты
+portfolio.has_always_been_x=всегда был {rating}
+portfolio.no_lines_of_code=Все проекты в данном портфолио пусты
+project_activity.events.tooltip.delete=Удалить это событие
+project_activity.events.tooltip.edit=Редактировать это событие
+quality_gates.update_condition=Обновить условие
+sessions.update_login.1=We noticed that you''ve renamed your username on {providerName}.
+sessions.update_login.2=By clicking on "Continue" we will update the key of your personal organization and rename your login to :
+sessions.update_login.3=Это означает, что вам нужно обновить:
+sessions.update_login.4=Build scripts that might be using your old personal organization key ({organizationKey}).
+sessions.update_login.5=Any Web Service call that might be referencing your old login ({login}).
+shortcuts.section.global.facets.multiselection=Ctrl + click to add to selection
+shortcuts.section.global.facets.multiselection.mac=Cmd + click to add to selection
+show_all=Показать Все
+tutorials.find_tutorial_back_in_help=Find this tutorial back anytime in the Help section
+tutorials.find_tutorial_back_in_plus=Find this tutorial back anytime in the "+" menu
+
+See report file located at: C:\Development\github.com\silverbulleters\sonar-l10n-ru\build\l10n\core_ru.properties.report.txt
+=======================

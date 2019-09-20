@@ -7,10 +7,26 @@
     <artifactId>parent</artifactId>
     <version>34</version>
   </parent>
+  
+  <properties>
+    <sonar.pluginClass>org.silverbulleters.sonar.plugins.l10n.RussianPackPlugin</sonar.pluginClass>
+    <sonar.pluginKey>l10nru</sonar.pluginKey>
+    <sonarqube.version>7.9</sonarqube.version>
+    <plugin.version>1.10-SNAPSHOT</plugin.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <jdk.min.version>1.8</jdk.min.version>
+
+    <!-- To configure maven-license-plugin to check license headers -->
+    <license.name>GNU LGPL v3</license.name>
+    <license.owner>SilverBulleters, LLC</license.owner>
+    <license.title>${project.name}</license.title>
+    <license.years>${project.inceptionYear}</license.years>
+    <license.mailto>mailto:b2b@silverbulleters.org</license.mailto>
+  </properties>
 
   <groupId>org.sonarqube.l10n.ru</groupId>
   <artifactId>sonar-l10n-ru-plugin</artifactId>
-  <version>1.10-SNAPSHOT</version>
+  <version>${plugin.version}</version>
   <packaging>sonar-plugin</packaging>
 
   <name>Russian Pack for SonarQube</name>
@@ -47,22 +63,7 @@
     <url>https://github.com/silverbulleters/sonar-l10n-ru</url>
     <tag>HEAD</tag>
   </scm>
-
-  <properties>
-    <sonar.pluginClass>org.silverbulleters.sonar.plugins.l10n.RussianPackPlugin</sonar.pluginClass>
-    <sonar.pluginKey>l10nru</sonar.pluginKey>
-    <sonarqube.version>7.2</sonarqube.version>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jdk.min.version>1.8</jdk.min.version>
-
-    <!-- To configure maven-license-plugin to check license headers -->
-    <license.name>GNU LGPL v3</license.name>
-    <license.owner>SilverBulleters, LLC</license.owner>
-    <license.title>${project.name}</license.title>
-    <license.years>${project.inceptionYear}</license.years>
-    <license.mailto>mailto:b2b@silverbulleters.org</license.mailto>
-  </properties>
-
+  
   <dependencies>
     <dependency>
       <groupId>org.sonarsource.sonarqube</groupId>
@@ -106,7 +107,6 @@
   </developers>
   <contributors>
     <contributor>
-      <id>nixel2007</id>
       <name>Nikita Gryzlov</name>
       <organization>1C-Syntax</organization>
       <organizationUrl>https://github.com/nixel2007</organizationUrl>	

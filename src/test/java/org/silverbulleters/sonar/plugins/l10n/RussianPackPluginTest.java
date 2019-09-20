@@ -1,7 +1,7 @@
 /*
  * Russian Pack for SonarQube
  * Copyright (C) 2016 SilverBulleters, LLC
- * mailto:contact AT silverbulleters DOT org
+ * mailto:b2b@silverbulleters.org
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public

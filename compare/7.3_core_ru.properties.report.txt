@@ -1,0 +1,78 @@
+
+=======================
+'core_ru.properties' is not up-to-date.
+
+ Missing translations are:
+404_not_found=404 Not found
+address_mistyped_or_page_moved=You may have mistyped the address or the page may have moved.
+application.branches.help=Easily create Application branches composed of the branches of projects in your application.
+application.branches.link=Create Branch
+coding_rules.type.tooltip.SECURITY_HOTSPOT=Security Hotspot Detection Rule
+component_navigation.status.last_blocked_due_to_bad_license=Last analysis blocked due to an invalid license, which has since been corrected. Please reanalyze this project.
+footer.security=Security
+go_back_to_homepage=Go back to the homepage
+issue.manual_vulnerability=Manual
+issue.manual_vulnerability.description=This Vulnerability was created from a Security Hotspot and has its own issue workflow.
+issue.transition.accept=Accept
+issue.transition.accept.description=The code has been fixed and the vulnerability has been removed. The issue can be closed.
+issue.transition.clear=Clear
+issue.transition.clear.description=There is no vulnerability in the code. The issue can be closed.
+issue.transition.detect=Detect
+issue.transition.detect.description=A Vulnerability exists here and must be fixed.
+issue.transition.dismiss=Dismiss
+issue.transition.dismiss.description=This vulnerability can't be fixed as is and needs more details from a security expert.
+issue.transition.reject=Reject
+issue.transition.reject.description=The fix has been reviewed by a security expert and the vulnerability is still there. Code must be fixed again.
+issue.transition.reopenhotspot=Reopen
+issue.transition.reopenhotspot.description=This security hotspot should be analyzed again by a security expert.
+issue.transition.requestreview=Request review
+issue.transition.requestreview.description=The code has been fixed and a review by a security expert is required to confirm it.
+issue.type.SECURITY_HOTSPOT=Security Hotspot
+issue.type.SECURITY_HOTSPOT.plural=Security Hotspots
+issue_bulk_change.no_match=There is no issue matching your filter selection
+issues.facet.cwe=CWE
+issues.facet.owaspTop10=OWASP Top 10
+issues.facet.sansTop25=SANS Top 25
+issues.facet.standards=Standard
+layout.security_reports=Security Reports
+organization.paid_plan.badge=Paid plan
+page_not_found=The page you were looking for does not exist.
+projects.no_projects.empty_instance.how_to_add_projects=Here is how you can analyse new projects
+projects.no_projects.empty_instance.new_project=Once you analyze some projects, they will show up here.
+projects_role.are_you_sure_to_turn_project_to_public.warning.APP=Everybody will be able to browse it.
+projects_role.are_you_sure_to_turn_project_to_public.warning.TRK=Everybody will be able to browse and see the source code of your project.
+projects_role.are_you_sure_to_turn_project_to_public.warning.VW=Everybody will be able to browse it.
+projects_role.securityhotspotadmin=Administer Security Hotspots
+projects_role.securityhotspotadmin.desc=Detect a Vulnerability from a "Security Hotspot". Reject, clear, accept, reopen a "Security Hotspot" (users also need "Browse" permissions).
+search.search_for_cwe=Search for CWEs...
+security_reports.cwe.show=Show CWE distribution
+security_reports.info=Issues counts and ratings below consider only {link} enabled in Quality Profiles.
+security_reports.info.link=security rules
+security_reports.line.in_review=In Review
+security_reports.line.open=Open
+security_reports.line.wont_fix=Won't Fix
+security_reports.list.categories=Categories
+security_reports.list.hotspots=Security Hotspots
+security_reports.list.vulnerabilities=Vulnerabilities
+security_reports.owaspTop10.description=Track Vulnerabilities and Security Hotspots conforming to OWASP Top 10 standard.
+security_reports.owaspTop10.page=OWASP Top 10
+security_reports.sansTop25.description=Track Vulnerabilities and Security Hotspots conforming to SANS Top 25 standard (25 CWE items in three categories).
+security_reports.sansTop25.page=SANS Top 25
+visibility.both=Public, Private
+visibility.public.description.APP=This application is public. Anyone can browse it.
+visibility.public.description.TRK=This project is public. Anyone can browse and see the source code.
+visibility.public.description.VW=This portfolio is public. Anyone can browse it.
+
+The following translations do not exist in the reference bundle:
+footer.get_started=Начало использования
+onboading.token.generate_token=Сгенерировать Токен
+onboading.token.generate_token.placeholder=Введите имя вашего токена
+projects_role.are_you_sure_to_turn_project_to_public.2.APP=Каждый сможет просматривать его.
+projects_role.are_you_sure_to_turn_project_to_public.2.TRK=Каждый сможет просматривать проект и его исходный код.
+projects_role.are_you_sure_to_turn_project_to_public.2.VW=Каждый сможет просматривать его.
+tutorials.find_it_back_in_help=Find it back anytime in the Help section
+tutorials.find_it_back_in_plus=Find it back anytime in the "+" menu
+visibility.public.description=Этот проект публичный. Каждый может просматривать проект и его исходный код.
+
+See report file located at: C:\Development\github.com\silverbulleters\sonar-l10n-ru\build\l10n\core_ru.properties.report.txt
+=======================

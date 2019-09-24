@@ -15,8 +15,6 @@
     <plugin.version>1.10-SNAPSHOT</plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jdk.min.version>1.8</jdk.min.version>
-
-    <!-- To configure maven-license-plugin to check license headers -->
     <license.name>GNU LGPL v3</license.name>
     <license.owner>SilverBulleters, LLC</license.owner>
     <license.title>${project.name}</license.title>
@@ -30,7 +28,7 @@
   <packaging>sonar-plugin</packaging>
 
   <name>Russian Pack for SonarQube</name>
-  <description>Translate SonarQube web application in Russian</description>
+  <description>Translate SonarQube Web application in Russian</description>
   <url>https://github.com/silverbulleters/sonar-l10n-ru</url>
   <inceptionYear>2016</inceptionYear>
 

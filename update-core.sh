@@ -1,0 +1,1 @@
+curl -o ./src/main/resources/org/sonar/l10n/core.properties https://raw.githubusercontent.com/SonarSource/sonarqube/master/sonar-core/src/main/resources/org/sonar/l10n/core.properties
